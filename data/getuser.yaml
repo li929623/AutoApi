@@ -1,0 +1,9 @@
+-
+  info: "查询用户信息"
+  request:
+    url: "/api/sys/user/"
+    headers:
+      Content-Type: application/json
+      Authorization:
+  assert:
+    message: 操作成功！

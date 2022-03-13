@@ -1,0 +1,11 @@
+-
+  info: "修改人员"
+  request:
+    url: "/api/sys/user/"
+    data:
+      username: "ui2"
+    headers:
+      Content-Type: application/json
+      Authorization:
+  assert:
+    message: 操作成功！

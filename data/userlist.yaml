@@ -1,0 +1,13 @@
+-
+  info: 用户列表
+  request:
+    style: get
+    url: "/api/sys/user/"
+    headers:
+      Content-Type: application/json
+      Authorization:
+    data:
+      page: "1"
+      size: "10"
+  assert:
+    message: 操作成功！

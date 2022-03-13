@@ -1,0 +1,9 @@
+-
+  info: "删除用户"
+  request:
+    url: "/api/sys/user/"
+    headers:
+      Content-Type: application/json
+      Authorization:
+  assert:
+    message: 操作成功！

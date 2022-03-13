@@ -1,0 +1,8 @@
+-
+  info: "用户资料"
+  request:
+    url: "/api/sys/profile"
+    headers:
+      Authorization:
+  assert:
+    message: 操作成功！

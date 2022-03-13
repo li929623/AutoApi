@@ -1,0 +1,1608 @@
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    接口测试添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': None}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '15117857419', 'workNumber': '64254'}
+root****INFO****    接口测试修改人员开始
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    接口测试添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': None}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '13218417555', 'workNumber': '64254'}
+root****INFO****    接口测试修改人员开始
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    接口测试添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': None}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '15535431825', 'workNumber': '64254'}
+root****INFO****    接口测试修改人员开始
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer f24d4ff0-5360-4a7f-ac1d-ddf1dc57ca52
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer f24d4ff0-5360-4a7f-ac1d-ddf1dc57ca52'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '14764774794', 'workNumber': '64254'}
+root****INFO****    获取id成功：1497922702516805632
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497922702516805632
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer f24d4ff0-5360-4a7f-ac1d-ddf1dc57ca52'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    修改人员接口测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer f9d6f928-a1f9-4bb7-889f-b118824ff74f
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer f9d6f928-a1f9-4bb7-889f-b118824ff74f'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '13027917595', 'workNumber': '64254'}
+root****INFO****    获取id成功：1497923169296703488
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497923169296703488
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer f9d6f928-a1f9-4bb7-889f-b118824ff74f'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    修改人员接口测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 47bb59c3-c383-499d-955a-dd974b5eda6b
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 47bb59c3-c383-499d-955a-dd974b5eda6b'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '15953117674', 'workNumber': '64254'}
+root****INFO****    获取id成功：1497923290637918208
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497923290637918208
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 47bb59c3-c383-499d-955a-dd974b5eda6b'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    修改人员接口测试完成
+root****INFO****    接口测试查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497923290637918208
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 47bb59c3-c383-499d-955a-dd974b5eda6b'}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer f90006eb-1160-4e25-bde0-1dd18fcbd508
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer f90006eb-1160-4e25-bde0-1dd18fcbd508'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '15386775045', 'workNumber': '64254'}
+root****INFO****    获取id成功：1497923401631784960
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497923401631784960
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer f90006eb-1160-4e25-bde0-1dd18fcbd508'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    修改人员接口测试完成
+root****INFO****    接口测试查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497923401631784960
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer f90006eb-1160-4e25-bde0-1dd18fcbd508'}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 426eb430-829a-4e48-a3c2-b9437f79f2b2
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 426eb430-829a-4e48-a3c2-b9437f79f2b2'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '15294028551', 'workNumber': '64254'}
+root****INFO****    获取id成功：1497923537393016832
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497923537393016832
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 426eb430-829a-4e48-a3c2-b9437f79f2b2'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    修改人员接口测试完成
+root****INFO****    接口测试查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497923537393016832
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 426eb430-829a-4e48-a3c2-b9437f79f2b2'}
+root****INFO****    断言开始
+root****INFO****    查询用户信息接口测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 67918d47-9c1c-47bb-82eb-64ee2e51d30b
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 67918d47-9c1c-47bb-82eb-64ee2e51d30b'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '13943813537', 'workNumber': '64254'}
+root****INFO****    获取id成功：1497923733879382016
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497923733879382016
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 67918d47-9c1c-47bb-82eb-64ee2e51d30b'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    修改人员接口测试完成
+root****INFO****    接口测试查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497923733879382016
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 67918d47-9c1c-47bb-82eb-64ee2e51d30b'}
+root****INFO****    断言开始
+root****INFO****    '查询用户信息'接口测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer efb010e9-ef58-4be9-ba4e-50d7d32f96fb
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer efb010e9-ef58-4be9-ba4e-50d7d32f96fb'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '13755574802', 'workNumber': '64254'}
+root****INFO****    获取id成功：1497925114371629056
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试:修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497925114371629056
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer efb010e9-ef58-4be9-ba4e-50d7d32f96fb'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    '修改人员'接口测试完成
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497925114371629056
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer efb010e9-ef58-4be9-ba4e-50d7d32f96fb'}
+root****INFO****    断言开始
+root****INFO****    '查询用户信息'接口测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 525256da-40ab-4365-a84d-a107f1cf3ccc
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 525256da-40ab-4365-a84d-a107f1cf3ccc'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '15310204725', 'workNumber': '64254'}
+root****INFO****    获取id成功：1497925231963136000
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试:修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497925231963136000
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 525256da-40ab-4365-a84d-a107f1cf3ccc'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    '修改人员'接口测试完成
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497925231963136000
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 525256da-40ab-4365-a84d-a107f1cf3ccc'}
+root****INFO****    断言开始
+root****INFO****    '查询用户信息'接口测试完成
+root****INFO****    接口测试:删除用户开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497925231963136000
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 525256da-40ab-4365-a84d-a107f1cf3ccc'}
+root****INFO****    断言开始
+root****INFO****    '删除用户'接口测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer d67323b7-0846-4816-aa32-572d95bc7c1e
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 5c61c953-1455-4103-99cd-b959df70c0bd
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net /api/sys/profile
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 57dc1921-0642-4e65-8696-65e4ef8d52fc
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net /api/sys/profile
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer bff0ce66-fffd-424c-a28f-faa8700aff90
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 593e49dd-bcf6-4835-af94-b66024879282
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 1ec3cfde-d8a3-46b0-ac1d-74b495db1999
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer f1f2c8d1-c46e-4bd4-94c3-d1a64107ae4d
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer f1f2c8d1-c46e-4bd4-94c3-d1a64107ae4d'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '18672870680', 'workNumber': '64254'}
+root****INFO****    获取id成功：1497934677955174400
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试:修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497934677955174400
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer f1f2c8d1-c46e-4bd4-94c3-d1a64107ae4d'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    '修改人员'接口测试完成
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497934677955174400
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer f1f2c8d1-c46e-4bd4-94c3-d1a64107ae4d'}
+root****INFO****    断言开始
+root****INFO****    '查询用户信息'接口测试完成
+root****INFO****    接口测试:删除用户开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497934677955174400
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer f1f2c8d1-c46e-4bd4-94c3-d1a64107ae4d'}
+root****INFO****    断言开始
+root****INFO****    '删除用户'接口测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer f876ae2d-740f-4385-bc79-47c009bd8250
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 88a8ce79-385c-4244-9822-b242280de06e
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': 'Bearer 88a8ce79-385c-4244-9822-b242280de06e'}
+root****INFO****    {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'userId': '1063705989926227968', 'mobile': '13800000002', 'username': 'aj123', 'company': '传智播客', 'companyId': '1', 'roles': {'apis': ['API-USER-DELETE'], 'menus': ['settings', 'social_securitys', 'permissions', 'departments', 'salarys', 'employees', 'attendances'], 'points': ['point-user-delete', 'POINT-USER-UPDATE', 'POINT-USER-ADD']}, 'authCacheKey': None}}
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 88a8ce79-385c-4244-9822-b242280de06e'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '13585052944', 'workNumber': '64254'}
+root****INFO****    获取id成功：1497935308031909888
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试:修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497935308031909888
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 88a8ce79-385c-4244-9822-b242280de06e'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    '修改人员'接口测试完成
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497935308031909888
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 88a8ce79-385c-4244-9822-b242280de06e'}
+root****INFO****    断言开始
+root****INFO****    '查询用户信息'接口测试完成
+root****INFO****    接口测试:删除用户开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497935308031909888
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 88a8ce79-385c-4244-9822-b242280de06e'}
+root****INFO****    断言开始
+root****INFO****    '删除用户'接口测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer f159a0d0-5749-440c-a55b-25af1b9ac9e1
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 63b550eb-c113-46f4-9d11-9b99497222b7
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 798e5862-62bc-48dc-b277-4be547cacecd
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer db8cfa38-5a06-42ab-aaba-14eea8f62913
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer aac68e33-80e7-4db8-b5e6-0f6305e01249
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer e0d57b43-dfee-4e5e-9f94-6dca5797a2ee
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer a0df2433-c034-49d4-bd82-33df73ee9aa9
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': 'Bearer a0df2433-c034-49d4-bd82-33df73ee9aa9'}
+root****INFO****    {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'userId': '1063705989926227968', 'mobile': '13800000002', 'username': 'aj123', 'company': '传智播客', 'companyId': '1', 'roles': {'apis': ['API-USER-DELETE'], 'menus': ['settings', 'social_securitys', 'permissions', 'departments', 'salarys', 'employees', 'attendances'], 'points': ['point-user-delete', 'POINT-USER-UPDATE', 'POINT-USER-ADD']}, 'authCacheKey': None}}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': None}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': None}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': None}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': None}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '13881194010', 'workNumber': '64254'}
+root****INFO****    接口测试:修改人员开始
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    接口测试:删除用户开始
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': None}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 9712a1a2-bfd6-4c23-afbc-0bc1472b4444
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer e6a4513e-8798-4940-8358-6e2698bdf2f6
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': 'Bearer e6a4513e-8798-4940-8358-6e2698bdf2f6'}
+root****INFO****    {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'userId': '1063705989926227968', 'mobile': '13800000002', 'username': 'aj123', 'company': '传智播客', 'companyId': '1', 'roles': {'apis': ['API-USER-DELETE'], 'menus': ['settings', 'social_securitys', 'permissions', 'departments', 'salarys', 'employees', 'attendances'], 'points': ['point-user-delete', 'POINT-USER-UPDATE', 'POINT-USER-ADD']}, 'authCacheKey': None}}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 87bd179a-f93e-442c-b419-c338bb7ae40f
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': 'Bearer 87bd179a-f93e-442c-b419-c338bb7ae40f'}
+root****INFO****    {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'userId': '1063705989926227968', 'mobile': '13800000002', 'username': 'aj123', 'company': '传智播客', 'companyId': '1', 'roles': {'apis': ['API-USER-DELETE'], 'menus': ['settings', 'social_securitys', 'permissions', 'departments', 'salarys', 'employees', 'attendances'], 'points': ['point-user-delete', 'POINT-USER-UPDATE', 'POINT-USER-ADD']}, 'authCacheKey': None}}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': None}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '13658036252', 'workNumber': '64254'}
+root****INFO****    接口测试:修改人员开始
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    接口测试:删除用户开始
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    接口测试:修改人员开始
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    接口测试:删除用户开始
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': None}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': None}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer f40fb92d-fc60-440a-a9ec-5a7a46c28790
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': 'Bearer f40fb92d-fc60-440a-a9ec-5a7a46c28790'}
+root****INFO****    {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'userId': '1063705989926227968', 'mobile': '13800000002', 'username': 'aj123', 'company': '传智播客', 'companyId': '1', 'roles': {'apis': ['API-USER-DELETE'], 'menus': ['settings', 'departments', 'employees', 'social_securitys', 'permissions'], 'points': ['point-user-delete', 'POINT-USER-UPDATE', 'POINT-USER-ADD']}, 'authCacheKey': None}}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 3ffe2a68-c240-4be5-a808-3aab38113f5c
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 3ffe2a68-c240-4be5-a808-3aab38113f5c'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '15941413886', 'workNumber': '64254'}
+root****INFO****    获取id成功：1497946239231188992
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试:修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497946239231188992
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 3ffe2a68-c240-4be5-a808-3aab38113f5c'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    '修改人员'接口测试完成
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497946239231188992
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 3ffe2a68-c240-4be5-a808-3aab38113f5c'}
+root****INFO****    断言开始
+root****INFO****    '查询用户信息'接口测试完成
+root****INFO****    接口测试:删除用户开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1497946239231188992
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 3ffe2a68-c240-4be5-a808-3aab38113f5c'}
+root****INFO****    断言开始
+root****INFO****    '删除用户'接口测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 777417c8-7ab0-4618-9873-4667ad5ea2a9
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    接口测试:修改人员开始
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    接口测试:删除用户开始
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 23332784-dbe3-476b-8cad-397228e62d1e
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer a58ee3a0-c3d2-4b46-9108-4109dbb8f655
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer a58ee3a0-c3d2-4b46-9108-4109dbb8f655'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '15641238744', 'workNumber': '64254'}
+root****INFO****    获取id成功：1498129116229132288
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试:修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498129116229132288
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer a58ee3a0-c3d2-4b46-9108-4109dbb8f655'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    '修改人员'接口测试完成
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498129116229132288
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer a58ee3a0-c3d2-4b46-9108-4109dbb8f655'}
+root****INFO****    断言开始
+root****INFO****    '查询用户信息'接口测试完成
+root****INFO****    接口测试:删除用户开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498129116229132288
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer a58ee3a0-c3d2-4b46-9108-4109dbb8f655'}
+root****INFO****    断言开始
+root****INFO****    '删除用户'接口测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 329c932e-16e9-474e-b873-efd0972816aa
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': 'Bearer 329c932e-16e9-474e-b873-efd0972816aa'}
+root****INFO****    {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'userId': '1063705989926227968', 'mobile': '13800000002', 'username': 'aj123', 'company': '传智播客', 'companyId': '1', 'roles': {'apis': ['API-USER-DELETE'], 'menus': ['settings', 'departments', 'employees', 'social_securitys', 'permissions'], 'points': ['point-user-delete', 'POINT-USER-UPDATE', 'POINT-USER-ADD']}, 'authCacheKey': None}}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 2a5eddc1-8f63-4cd2-80a6-b456cc4ac345
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 9295f921-f774-44bc-ba31-f9095ee04483
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 9295f921-f774-44bc-ba31-f9095ee04483'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '15356416876', 'workNumber': '64254'}
+root****INFO****    获取id成功：1498130475133296640
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试:修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498130475133296640
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 9295f921-f774-44bc-ba31-f9095ee04483'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    '修改人员'接口测试完成
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498130475133296640
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 9295f921-f774-44bc-ba31-f9095ee04483'}
+root****INFO****    断言开始
+root****INFO****    '查询用户信息'接口测试完成
+root****INFO****    接口测试:删除用户开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498130475133296640
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 9295f921-f774-44bc-ba31-f9095ee04483'}
+root****INFO****    断言开始
+root****INFO****    '删除用户'接口测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer cde8943d-a7e0-4a5f-9eae-cdcd0ab355db
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': 'Bearer cde8943d-a7e0-4a5f-9eae-cdcd0ab355db'}
+root****INFO****    {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'userId': '1063705989926227968', 'mobile': '13800000002', 'username': 'aj123', 'company': '传智播客', 'companyId': '1', 'roles': {'apis': ['API-USER-DELETE'], 'menus': ['settings', 'departments', 'employees', 'social_securitys', 'permissions'], 'points': ['point-user-delete', 'POINT-USER-UPDATE', 'POINT-USER-ADD']}, 'authCacheKey': None}}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 96b25d2a-7a12-4770-8136-4d2338666d9c
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 141afb46-2c03-4aed-9728-1a7aef5c10c8
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 141afb46-2c03-4aed-9728-1a7aef5c10c8'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '15542435743', 'workNumber': '64254'}
+root****INFO****    获取id成功：1498131255995260928
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试:修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498131255995260928
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 141afb46-2c03-4aed-9728-1a7aef5c10c8'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    '修改人员'接口测试完成
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498131255995260928
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 141afb46-2c03-4aed-9728-1a7aef5c10c8'}
+root****INFO****    断言开始
+root****INFO****    '查询用户信息'接口测试完成
+root****INFO****    接口测试:删除用户开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498131255995260928
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 141afb46-2c03-4aed-9728-1a7aef5c10c8'}
+root****INFO****    断言开始
+root****INFO****    '删除用户'接口测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer f9a55a96-ae32-479a-868e-9300bae9e339
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': 'Bearer f9a55a96-ae32-479a-868e-9300bae9e339'}
+root****INFO****    {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'userId': '1063705989926227968', 'mobile': '13800000002', 'username': 'aj123', 'company': '传智播客', 'companyId': '1', 'roles': {'apis': ['API-USER-DELETE'], 'menus': ['settings', 'departments', 'employees', 'social_securitys', 'permissions'], 'points': ['point-user-delete', 'POINT-USER-UPDATE', 'POINT-USER-ADD']}, 'authCacheKey': None}}
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 6b99da47-c3e8-4c20-8a90-65c144b2c53c
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer 74e9d68e-e6e9-43ce-8b2f-ccf26404ea23
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    接口测试:添加人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 74e9d68e-e6e9-43ce-8b2f-ccf26404ea23'}
+root****INFO****    请求体：{'username': 'ui2', 'mobile': '18839707398', 'workNumber': '64254'}
+root****INFO****    获取id成功：1498131828689723392
+root****INFO****    添加人员接口测试完成
+root****INFO****    接口测试:修改人员开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498131828689723392
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 74e9d68e-e6e9-43ce-8b2f-ccf26404ea23'}
+root****INFO****    请求体：{'username': 'ui2'}
+root****INFO****    '修改人员'接口测试完成
+root****INFO****    接口测试:查询用户信息开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498131828689723392
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 74e9d68e-e6e9-43ce-8b2f-ccf26404ea23'}
+root****INFO****    断言开始
+root****INFO****    '查询用户信息'接口测试完成
+root****INFO****    接口测试:删除用户开始
+root****INFO****    Url为：http://ihrm-test.itheima.net/api/sys/user/1498131828689723392
+root****INFO****    请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer 74e9d68e-e6e9-43ce-8b2f-ccf26404ea23'}
+root****INFO****    断言开始
+root****INFO****    '删除用户'接口测试完成
+root****INFO****    开始测试登陆成功接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '123456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：操作成功！
+root****INFO****    预期结果：操作成功！
+root****INFO****    赋值token：Bearer c46d726c-be25-407e-97f4-27be4f8c4189
+root****INFO****    登陆成功场景测试完成
+root****INFO****    开始测试登陆失败密码错误接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': '12456'}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    登陆失败密码错误场景测试完成
+root****INFO****    开始测试缺失密码接口
+root****INFO****    请求URL:http://ihrm-test.itheima.net/api/sys/login
+root****INFO****    输入参数:{'Content-Type': 'application/json'}{'mobile': '13800000002', 'password': None}
+root****INFO****    开始断言
+root****INFO****    测试结果：用户名或密码错误
+root****INFO****    预期结果：用户名或密码错误
+root****INFO****    获取token失败，用户名或密码错误
+root****INFO****    缺失密码场景测试完成
+root****INFO****    url为：http://ihrm-test.itheima.net/api/sys/profile
+root****INFO****    请求头：{'Authorization': 'Bearer c46d726c-be25-407e-97f4-27be4f8c4189'}
+root****INFO****    {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'userId': '1063705989926227968', 'mobile': '13800000002', 'username': 'aj123', 'company': '传智播客', 'companyId': '1', 'roles': {'apis': ['API-USER-DELETE'], 'menus': ['settings', 'departments', 'employees', 'social_securitys', 'permissions'], 'points': ['point-user-delete', 'POINT-USER-UPDATE', 'POINT-USER-ADD']}, 'authCacheKey': None}}

@@ -1,0 +1,33 @@
+-
+  info: 登陆成功
+  request:
+    url: "/api/sys/login"
+    headers:
+      Content-Type: application/json
+    data:
+      mobile: "13800000002"
+      password: "123456"
+  assert:
+    message: 操作成功！
+
+- info: 登陆失败密码错误
+  request:
+    url: "/api/sys/login"
+    headers:
+      Content-Type: application/json
+    data:
+      mobile: "13800000002"
+      password: "12456"
+  assert:
+    message: 用户名或密码错误
+
+- info: 缺失密码
+  request:
+    url: "/api/sys/login"
+    headers:
+      Content-Type: application/json
+    data:
+      mobile: "13800000002"
+      password:
+  assert:
+    message: 用户名或密码错误

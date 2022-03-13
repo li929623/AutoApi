@@ -1,0 +1,13 @@
+-
+  info: "添加人员"
+  request:
+    url: "/api/sys/user"
+    data:
+      username: "ui2"
+      mobile:
+      workNumber: "64254"
+    headers:
+      Content-Type: application/json
+      Authorization:
+  assert:
+    message: 操作成功！
